@@ -1,0 +1,1521 @@
+.body{
+    width: 100vw;    
+    height: 100vh;
+    font-family: "Graduate", serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.audio{
+    position: absolute;
+    left: 3%;
+    width: 15%;
+    height: 3%;
+    margin-inline: 5%;
+    top:2%;
+}
+.quadradoinicial{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    bottom: 10%;
+    height: 75%;
+    width: 80%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.796);
+    flex-wrap: wrap;
+    font-family: "Graduate", serif;
+    font-size: 25px;
+    color: rgb(56, 129, 109);
+    text-align: center;
+}
+.quadradobairro{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    bottom: 10%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.796);
+    align-content:space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: "Graduate", serif;
+    font-size: 25px;
+    color: rgb(56, 129, 109);
+    text-align: center;
+}
+
+.imgbairro{
+    position: absolute;
+    width: 99%;
+    height: 95%;   
+    margin: 0;
+    border: 5px solid #474747;
+    border-top: 15px solid #474747;
+    border-radius: 2%;
+}
+.tituloq{
+    height: 6%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: "Graduate", serif;
+}
+.barrasup{
+    left: 0.5%;
+    width: 99%;
+    height: 12%;
+    font-family: "Graduate", serif;
+    color:  rgb(56, 129, 109);
+    border: 3px solid white;
+    text-align:left;
+    position: absolute;
+    padding: auto;
+    display: flex;    
+}
+
+
+
+.btlinkinicio{
+    color: rgb(56, 129, 109);
+    margin-left: 1%;
+}
+.linkinicio{
+    font-size: 140%;
+    position: absolute;
+    width: 56%;
+    left: 43%;
+    bottom: 0%;
+}
+
+
+.barrasaude{
+    border: 3px solid white;
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    right: 0%;
+    top:0%;
+    font-size: 120%;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.fundofloripa{
+    display: flex;
+    border: 3px solid white;
+    height: 92%;
+    width: 100%;
+}
+.flpimg{
+    height:99%;
+    width:80%;
+    border: 3px solid white;
+    left: 10%;
+    position: relative;
+}
+.cidadema{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 68%;
+    color: black;
+    border-radius: 20%;
+    left: 45%;
+    top:15%;
+}
+
+.formacidade{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+   height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 40%;
+    top: 45%;
+
+}
+.cidadema2{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 40%;
+    top: 45%;
+}
+.cidadema3{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 65%;
+    top: 20%;
+}
+.cidadema4{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 16px;
+    color: black;
+    border-radius: 20%;
+    left: 25%;
+    top: 20%;
+}
+.cidadema5{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 70%;
+    top:60%;
+    text-decoration: none;
+}
+.cidademb{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 270px;
+    top:90px;
+}
+.cidademb2{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 850px;
+    top:130px;
+}
+.cidademb3{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 620px;
+    top:80px;
+}
+.cidademb4{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 760px;
+    top:300px;
+}
+.cidademb5{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 340px;
+    top:280px;
+    text-decoration: none;
+}
+.cidademc{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 18%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left:620px;
+    top:300px;
+}
+.cidademc2{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 170px;
+    top:100px;
+}
+.cidademc3{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 520px;
+    top:100px;
+}
+
+.cidademc5{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 18%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 836px;
+    top:98px;
+    text-decoration: none;
+}
+.cidademd{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 380px;
+    top: 270px;
+}
+.cidademd2{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 170px;
+    top:120px;
+}
+.cidademd3{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 720px;
+    top:220px;
+}
+.cidademd4{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 320px;
+    top:100px;
+}
+.cidademd5{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 970px;
+    top:200px;
+    text-decoration: none;
+}
+.cidademe2{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 930px;
+    top:85px;
+}
+.cidademe3{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    border-radius: 20%;
+    left: 250px;
+    top:140px;
+}
+.cidademe4{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 720px;
+    top:280px;
+}
+.cidademe5{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 500px;
+    top:100px;
+    text-decoration: none;
+}
+.cidademf{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left:320px;
+    top:100px;
+}
+.cidademf2{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 600px;
+    top:120px;
+}
+.cidademf3{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    border-radius: 20%;
+    left: 550px;
+    top:350px;
+}
+.cidademf4{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 13px;
+    color: black;
+    border-radius: 20%;
+    left: 150px;
+    top:230px;
+}
+.cidademf5{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+    height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    border-radius: 20%;
+    left: 820px;
+    top:140px;
+    text-decoration: none;
+}
+
+.cidadecentro{
+    margin: 5%;
+    padding: 1%;
+    width: 83%;
+    height: 50%;
+    border-radius: 45%;
+    border: 1px solid white;
+}
+
+.tituloedificio{
+    color: rgb(56, 129, 109);
+}
+.cor{
+    color: rgb(56, 129, 109);
+    text-decoration: none;
+}
+
+.cor:hover{
+    color: rgb(25, 63, 53);
+    text-decoration: none;
+}
+
+.edificiomonkey{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 40%;
+    font-size: 20px;
+    height: 155px;
+    width: 180px;
+    padding: 55px;
+    color: rgb(56, 129, 109);
+}
+.fotopersonagem{
+    width: 55%;
+    height: 40%;
+    border: 3px solid rgb(255, 255, 255);
+    right: 0;
+    position: absolute;    
+}
+.fotopersonageminv{
+    width: 25%;
+    height: 36%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8%;
+    left: 5%;
+    position: absolute;    
+}
+
+.pjudoka{
+    margin: 0px;
+    padding: 0px;
+}
+.judoka{
+    font-family: "Graduate", serif;
+    font-size: 19px;
+    margin: 0;
+    text-align: center;
+    border: 3px solid white;
+    padding: 1%;
+    width: 45%;
+    height: 10%;
+}
+.lvlp{
+    margin: 0px;
+}
+.level{
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    position: absolute;
+    border: 3px solid white;
+    top: 10%;
+    height: 30%;
+    width: 45%;
+    padding: 0px 0px 0px 10px;
+}
+.descriçaofoto{ 
+    width: 52%;
+    position: absolute;
+    text-align:left;
+    font-size: 19px;
+    height: 63%;
+    left:4%;
+    top:35%;
+    padding: 0%;
+   
+}
+.descriçaofoto2{
+    height: 65%;
+    width: 35%;
+    position: absolute;
+    left:61%;
+    top:35%;
+    text-align: center;
+    font-size: 19px;
+   
+    
+}
+.glock{
+    width: 100%;
+    height: 100%;
+}
+.blocoarma{
+    border: 2px solid rgb(65, 65, 65);
+    width: 50%;
+    height: 15%;
+    display: inline-block;
+}
+
+.monkimg{
+    width: 6%;
+    height: 98%;
+    
+}
+
+.oferta1{
+    display: inline;
+    height: 52%;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.m1{
+    position: absolute;
+    bottom: 0%;
+    left: 6.5%;
+}
+
+
+
+
+.aaa{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(56, 129, 109);  
+}
+ 
+
+
+
+
+
+.quadro1{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top:10%;
+    border: 3px solid white;
+    width: 40%;
+    height: 70%;
+    
+}
+
+.barraquadro{
+    background-color: green;
+    height: 15%;
+    width: 100%;
+    text-align:center;
+}
+.blocoinventario{
+    border-radius: 2%;
+    position:absolute;
+    left:10%;
+    top:10%;
+    width: 80%;
+    height: 85%;
+    padding:  2px 30px 10px 30px; 
+    margin: 0px;  
+}
+.armazem{
+    display: inline-block;
+    width: 49.5%;
+    height: 98%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: absolute;
+    left: 0%;
+    
+    
+}
+.mochila{
+    display: inline-block;
+    width: 49.5%;
+    height: 98%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: absolute;
+    padding: 10px;
+}
+.mochila2{
+    display: inline-block;
+    width: 45%;
+    height: 90%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: absolute;
+    padding: 10px;
+    margin: 5px 0px 0px 20px;
+}
+.equip{
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    margin: 2.5%;
+    width: 45%;
+    height: 90%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    margin: 5px 0px 0px 20px;
+}
+.tituloar{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(56, 129, 109);
+}
+.quadroslots{
+    background-color: rgba(41, 39, 5, 0.905);
+    border: 2px solid black;
+    height: 60%;
+    width: 95%;
+    position: absolute;
+    top: 38%;
+    align-content: center;
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inv{
+    margin: 2.5%;
+    width: 45%;
+    height: 96%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    display: flex;
+}
+
+.qdinv{
+    margin-top: 29%;
+    margin-left:3%;
+    width: 90%;
+    height: 60%;
+    border:3px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px;
+}
+.person1{
+    width: 58%;
+    height: 80%;
+    border: 3px solid white;
+    bottom: 3%;
+    border-radius: 5%;
+    right:3%;
+    position:absolute;
+    
+}
+.imgequip1{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 20%;
+    left: 0;
+}
+.imgequip2{
+    width: 92%;
+    height:92%;
+    margin: 5px;
+    border-radius: 20%;
+}
+.imgequip3{
+    width: 95%;
+    height:95%;
+    margin: 2px;
+    border-radius: 20%;
+}
+.dorso{
+    width: 25%;
+    height: 26%;
+    background-color: #63611d;
+    position: absolute;
+    left: 41%;
+    top: 23%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.cabeca{
+    width: 23%;
+    height: 20%;
+    background-color: #63611d;
+    position: absolute;
+    top: 1%;
+    left: 42%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.pes{
+    width: 23%;
+    height: 18%;
+    background-color: #63611d;
+    position: absolute;
+    top: 285px;
+    left: 135px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.colete{
+    width: 25%;
+    height: 26%;
+    background-color: #63611d;
+    position: absolute;
+    top: 23%;
+    left: 14%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.arma{
+    width: 25%;
+    height: 20%;
+    background-color: #63611d;
+    position: absolute;
+    top: 51%;
+    left: 68%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.costas{
+    width: 25%;
+    height: 26%;
+    background-color: #63611d;
+    position: absolute;
+    top: 23%;
+    left: 68%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.pernas{
+    width: 25%;
+    height: 26%;
+    background-color: #63611d;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.celularinv{
+    width: 23%;
+    height: 20%;
+    background-color: #63611d;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.anel{
+    width: 14%;
+    height: 13%;
+    background-color: #63611d;
+    position: absolute;
+    top: 5%;
+    left: 82%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.colar{
+    width: 14%;
+    height: 13%;
+    background-color: #63611d;
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.buster{
+    border: 2px solid white;
+    background-color: #474747ad;
+    border-radius: 8%;
+    width: 35%;
+    height: 30%;
+    margin: 4px;
+    position: absolute;
+    bottom: 20%;
+    
+    font-size: 13px;
+}
+.buster1{
+    text-align: left;
+    border-radius: 8%;
+    width: 73%;
+    height: 110px;
+    position: absolute;
+    margin: 2px;
+}
+.buster2{
+    text-align: center;
+    border-radius: 10%;
+    width: 30%;
+    height: 110px;
+    position: absolute;
+    left: 67%;
+    margin: 2px;
+}
+.person2{
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    left:0;
+    position:absolute;
+
+}
+.titulopr{
+    margin-top: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(56, 129, 109);
+}
+.quadroper{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-radius: 1%;
+    height: 95%;
+}
+.quadroper2{
+       margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-right: 0%;
+    align-items:center;
+    display: flex;
+    padding: 0px;
+    width: 89%;
+    border-radius: 1%;
+    height: 450px;
+}
+.slots{
+    background-color: #63611d;
+    width: 10%;
+    height: 10%;
+    border: 2px solid rgb(0, 0, 0);   
+    margin: 0%;
+    
+}
+
+.mochilaa{
+    width: 23%;
+    height: auto;
+    margin-top:10px;
+    margin-right: 35%;
+    position: absolute;
+    left: 10px;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.mochilab{
+    width: 120px;
+    height: auto;
+    top: 38px;
+    margin-top:10px;
+    position: absolute;
+    left: 270px;
+    
+}
+.descmoc{
+    align-content: center;
+    width: 32%;
+    height: 25%;
+    position: absolute;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 6%;
+    left: 30%;
+    top: 10%;
+}
+.descak{
+    border: 2px solid white;
+    border-radius: 6%;
+    align-content: center;
+    width: 30%;
+    height: 9%;
+    right: 6%;
+    top: 27%;
+    position: absolute;
+    font-size: 13px;
+}
+.imgmuni{
+    width: 10px;
+    height: 10px;
+}
+h{
+    font-size: 30px;
+}
+
+.glock2{
+    left:4.7%;
+    top: 6.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 25%;
+    height: 27%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.revolver{
+    left:33%;
+    top: 6.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 25%;
+    height: 27%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.revolverp{
+    width: 25%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 33%;
+    top:6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.mochilab{
+    width: 25%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 61%;
+    top:6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.mochilav{
+    width: 25%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 61%;
+    top: 36.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akinv{
+    width: 53.5%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 4.7%;
+    top: 36.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.katanainv{
+    width: 53.5%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 4.7%;
+    top: 66.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.machadomochila{
+    width: 26%;
+    height: 67%;
+    margin: 0;
+    padding: 0;
+    left: 60.5%;
+    top: 6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akequip{
+    padding: 0px;
+    margin: 0px;
+    width: 30%;
+    height: 15%;
+    top: 10%;
+    position: absolute;
+    left: 64%;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.muniinv{
+    left: 22.8%;
+    top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.estr-inv{
+    left: 22.8%;
+    top: 56%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.gorilainv{
+    left: 41.5%;
+    top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17.5%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akmaginv{
+    left:4%;
+    top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.caniveteinv{
+    left: 4%;
+    top: 36.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.trofeuinv{
+    left: 22.8%;
+    top: 26.3%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.chaveinv{
+    left: 41.5%;
+    top: 26.3%;
+    padding: 0px;
+    margin: 0px;
+    width: 17.5%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+
+
+.barralateral:hover{
+    background-color:  rgba(0, 0, 0, 0.796);
+    width: 18%;
+    height:85%;
+    position: absolute;
+    right: 0px;
+    top:15%;
+    text-align: center;
+    display: flex;   
+    transition: 1s;
+    
+}
+
+
+
+.barralateral{
+    background-color: rgba(0, 0, 0, 0.796);
+    width: 2%;
+    height:85%;
+    position: absolute;
+    right: -1.9%;
+    top:15%;
+    text-align: center;
+    display: flex;   
+    transition: 1s;
+    padding: 1%;
+}
+
+.botoeslateral{
+    width: 100%;
+    height: 38%;
+    padding: 2%;
+    position: absolute;
+    bottom:0%;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(56, 129, 109);
+    font-family: "Graduate", serif; 
+    align-content: center;    
+}
+
+.person-icon{
+    height: auto;
+    width: 27%;
+    position:relative;
+}
+
+.bag-icon{
+    height: auto;
+    width: 33%;
+    position:relative;
+       
+}
+.cel-icon{
+    height: auto;
+    width: 18%;
+    position:relative;
+       
+}
+.botoes-ov-1{
+    height:30%;
+    width: 50%;    
+    background-color: #252525;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 30%;
+    cursor: pointer; 
+}
+.botoes-ov-2{
+    height:30%;
+    width: 50%;    
+    background-color: #252525;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 30%;
+    cursor: pointer; 
+}
+.botoes-ov-3{
+    height:30%;
+    width: 50%;    
+    background-color: #252525;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botoes-ov-1:hover{
+    height:30%;
+    width: 50%;    
+    background-color: #000000;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botoes-ov-2:hover{
+    height:30%;
+    width: 50%;    
+    background-color: #000000;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botoes-ov-3:hover{
+    height:30%;
+    width: 50%;    
+    background-color: #000000;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botao-lt{
+    background-color: #252525;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-lt:hover{
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.link-lt{
+    border: 10% solid #252525 ;
+    text-decoration: none;
+    color:  rgb(56, 129, 109);
+    font-size: 15px;
+    font-family: "Graduate", serif; 
+}
+.slider{
+    color: rgb(56, 129, 109);
+    height: 60%;
+    width: 96%;
+    border-radius: 2%;
+    position: absolute;
+    display:flex;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 2%;   
+      
+}
+
+.slides{
+    width: 100%;
+    height: 100%;
+}
+
+.slide1{
+    color: rgb(56, 129, 109);
+    height: 100%;
+    width: 100%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+}   
+
+
+
+.tituloq{
+height: 6%;
+width: 100%;
+background-color: rgb(0, 0, 0);
+font-family: "Graduate", serif;
+}
+
+
+.celular{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+.cel1{
+    position: absolute;
+    width: 34%;
+    height: 48%;
+    left: 42.8%;
+    top: 20%;
+    
+}
+
+.botoescell{
+    padding: 1%;
+    border-top: rgba(0, 0, 0, 0.404) solid 2px ;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    bottom: 1%;
+    position: absolute;
+  
+}
+
+.botao{
+    
+    cursor: pointer;
+    border: none;
+    background-color: rgba(36, 36, 36, 0);
+    width: 20%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    bottom: 0px;
+}
+
+.botao1{
+    width: 100%;
+    height: 100%;
+}
+
+.botao2{
+    width: 100%;
+    height: 100%;
+}
+.botao3{
+    width: 100%;
+    height: 100%;
+}
+.botao4{
+    width: 100%;
+    height: 100%;
+}
+
+.tela{
+    margin: 10% 1.5%;
+    position: absolute;
+    width: 98%;
+    height: 75%;
+    justify-content: center;
+}
+
+.conteudo{
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 90%;
+}
+
+.quadradocelular{
+    border: none;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    bottom: 10%;
+    height: 75%;
+    width: 80%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.796);
+    flex-wrap: wrap;
+    font-family: "Graduate", serif;
+    font-size: 25px;
+    color: rgb(56, 129, 109);
+    text-align: center;
+}
+
+.telacelular{
+    width: 40%;
+    height: 85%;
+    border-radius: 2%;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    border: 3px solid rgb(43, 43, 43);
+}
+
+#canva1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#macaco{
+    margin-top: 1.2%;
+    margin-left: 0;
+    border: 2px  ;
+    width: 98%;
+    height: 91.3%;
+}
+
