@@ -1042,17 +1042,28 @@ h{
 }
 
 .glock2{
-    left:4.7%;
+    left:4%;
     top: 6.5%;
     padding: 0px;
     margin: 0px;
-    width: 25%;
+    width: 26.5%;
     height: 27%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
 }
-.revolver{
+.p1911{
+    top: 66.5%;
+    left: 60.2%;
+    padding: 0px;
+    margin: 0px;
+    width: 26.5%;
+    height: 27%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.tchacos{
     left:33%;
     top: 6.5%;
     padding: 0px;
@@ -1064,12 +1075,12 @@ h{
     background-color: #535350e2;
 }
 .revolverp{
-    width: 25%;
+    width: 26.5%;
     height: 27%;
     margin: 0;
     padding: 0;
-    left: 33%;
-    top:6.5%;
+    left: 4%;
+    top:66.5%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
@@ -1152,8 +1163,8 @@ h{
     background-color: #535350e2;
 }
 .estr-inv{
-    left: 22.8%;
-    top: 56%;
+    left: 41.5%;
+    top: 46%;
     padding: 0px;
     margin: 0px;
     width: 17%;
@@ -1186,7 +1197,7 @@ h{
 }
 .caniveteinv{
     left: 4%;
-    top: 36.5%;
+    top: 36%;
     padding: 0px;
     margin: 0px;
     width: 17%;
