@@ -10,13 +10,20 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
+.audio:hover{
+    position: absolute;
+    width: 23%;
+    height: 8%;
+    left: 40%;
+    top: 20%; 
+}
 .audio{
     position: absolute;
-    left: 3%;
-    width: 15%;
-    height: 3%;
-    margin-inline: 5%;
-    top:2%;
+    width: 2%;
+    height: 4%;
+    left: 48.2%;
+    top: 23%; 
 }
 .quadradoinicial{
     position: absolute;
@@ -49,10 +56,11 @@
     font-size: 25px;
     color: rgb(56, 129, 109);
     text-align: center;
+    
 }
 
 .imgbairro{
-    position: absolute;
+    position:absolute;
     width: 99%;
     height: 95%;   
     margin: 0;
@@ -84,21 +92,26 @@
 .btlinkinicio{
     color: rgb(56, 129, 109);
     margin-left: 1%;
+   
 }
 .linkinicio{
+    padding: auto;
     font-size: 140%;
     position: absolute;
-    width: 56%;
-    left: 43%;
+    width: 43%;
+    height: 50%;
+    right: 0%;
     bottom: 0%;
+    border: 3px solid rgb(206, 206, 206);
+    text-align: center;
 }
 
 
 .barrasaude{
-    border: 3px solid white;
+    border: 3px solid rgb(206, 206, 206);
     position: absolute;
     height: 50%;
-    width: 60%;
+    width: 50%;
     right: 0%;
     top:0%;
     font-size: 120%;
@@ -134,6 +147,7 @@
     left: 45%;
     top:15%;
 }
+
 
 .formacidade{
     border: 2px solid rgb(0, 0, 0);
@@ -549,6 +563,7 @@
     color: rgb(56, 129, 109);
 }
 .cor{
+    
     color: rgb(56, 129, 109);
     text-decoration: none;
 }
@@ -570,7 +585,7 @@
     color: rgb(56, 129, 109);
 }
 .fotopersonagem{
-    width: 55%;
+    width: 56%;
     height: 40%;
     border: 3px solid rgb(255, 255, 255);
     right: 0;
@@ -591,11 +606,11 @@
 }
 .judoka{
     font-family: "Graduate", serif;
-    font-size: 19px;
-    margin: 0;
+    font-size: 150%;
+    margin:0;
     text-align: center;
     border: 3px solid white;
-    padding: 1%;
+    padding: 3%;
     width: 45%;
     height: 10%;
 }
@@ -604,7 +619,7 @@
 }
 .level{
     text-align: center;
-    font-size: 17px;
+    font-size: 150%;
     display: flex;
     position: absolute;
     border: 3px solid white;
@@ -617,12 +632,12 @@
     width: 52%;
     position: absolute;
     text-align:left;
-    font-size: 19px;
+    font-size: 150%;
     height: 63%;
     left:4%;
     top:35%;
     padding: 0%;
-   
+    margin-top: 3%;   
 }
 .descriçaofoto2{
     height: 65%;
@@ -631,9 +646,8 @@
     left:61%;
     top:35%;
     text-align: center;
-    font-size: 19px;
-   
-    
+    font-size: 150%;
+    margin-top: 3%;
 }
 .glock{
     width: 100%;
@@ -641,8 +655,8 @@
 }
 .blocoarma{
     border: 2px solid rgb(65, 65, 65);
-    width: 50%;
-    height: 15%;
+    width: 90%;
+    height: 18%;
     display: inline-block;
 }
 
@@ -767,6 +781,7 @@
     width: 95%;
     position: absolute;
     top: 38%;
+    left: 2.5%;
     align-content: center;
     padding: 0px 15px;
     display: flex;
@@ -1085,6 +1100,17 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+.revolverplt{
+    width: 26%;
+    height: 29%;
+    margin: 0;
+    padding: 0;
+    left: 6%;
+    top:65.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
 .mochilab{
     width: 25%;
     height: 27%;
@@ -1118,6 +1144,7 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+
 .katanainv{
     width: 53.5%;
     height: 27%;
@@ -1136,6 +1163,17 @@ h{
     padding: 0;
     left: 60.5%;
     top: 6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.machadomochilalt{
+    width: 26%;
+    height: 69%;
+    margin: 0;
+    padding: 0;
+    left: 59%;
+    top: 5.5%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
@@ -1162,6 +1200,17 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+.muniinvlt{
+    left: 23.5%;
+    top: 5.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 19%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
 .estr-inv{
     left: 41.5%;
     top: 46%;
@@ -1169,6 +1218,17 @@ h{
     margin: 0px;
     width: 17%;
     height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.estr-invlt{
+    left: 41.5%;
+    top: 46%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 18%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
@@ -1184,6 +1244,17 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+.gorilainvlt{
+    left: 41.5%;
+    top: 5.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 19%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
 .akmaginv{
     left:4%;
     top: 6%;
@@ -1191,6 +1262,17 @@ h{
     margin: 0px;
     width: 17%;
     height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akmaginvlt{
+    left:6%;
+    top: 5.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 29%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
@@ -1206,6 +1288,32 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+
+#canva1{
+    position: absolute;
+    width: 98.3%;
+    height: 92%;
+    left: 1%;
+    top: 3.5%;
+}
+
+#macaco{
+   
+    border: 2px  ;
+    width: 98%;
+    height: 91.3%;
+}
+.caniveteinvlt{
+    left: 6%;
+    top: 36%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 29%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
 .trofeuinv{
     left: 22.8%;
     top: 26.3%;
@@ -1217,6 +1325,17 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+.trofeuinvlt{
+    left: 24%;
+    top: 25%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 29%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
 .chaveinv{
     left: 41.5%;
     top: 26.3%;
@@ -1224,6 +1343,17 @@ h{
     margin: 0px;
     width: 17.5%;
     height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.chaveinvlt{
+    left: 41.5%;
+    top: 26%;
+    padding: 0px;
+    margin: 0px;
+    width: 17.5%;
+    height: 19%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
@@ -1359,6 +1489,7 @@ h{
     background-color: #252525;
     border: none;
     cursor: pointer;
+    height: 100%;
 }
 
 .botao-lt:hover{
@@ -1376,30 +1507,65 @@ h{
 .slider{
     color: rgb(56, 129, 109);
     height: 60%;
-    width: 96%;
+    width: 300%;
     border-radius: 2%;
     position: absolute;
     display:flex;
     font-size: 16px;
     overflow: hidden;
-    margin: 2%;   
-      
 }
 
-.slides{
-    width: 100%;
-    height: 100%;
+.posicao0{
+    left:100%;
+}
+.posicao1{
+    left:0;
+}
+.posicao2{
+    left:-100%;
+}
+.posicao3{
+    left:-200%;
 }
 
 .slide1{
     color: rgb(56, 129, 109);
     height: 100%;
-    width: 100%;
+    width: 96%;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 2%;
     position: relative;
     display: flex;
     font-size: 16px;
+    margin-left: 2%;
+    margin-right: 2%;
+}   
+
+.slide2{
+    background-color: rgb(200, 255, 0);
+    color: rgb(56, 129, 109);
+    height: 100%;
+    width: 96%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-right: 2%;
+}   
+
+.slide3{
+    color: rgb(56, 129, 109);
+    height: 100%;
+    width: 96%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-right: 2%;
 }   
 
 
@@ -1481,12 +1647,75 @@ font-family: "Graduate", serif;
     width: 98%;
     height: 75%;
     justify-content: center;
+    
 }
 
+
 .conteudo{
-    border: 2px solid rgba(0, 0, 0, 0.479);
-    width: 100%;
-    height: 90%;
+    position: absolute;
+    background-color: #25252579;    
+    }
+
+.ctt1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:20vh;
+    background-image:url(bt-config.png);
+
+}
+
+.ctt2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:20vh;
+    background-image:url(bt-waths.png);
+
+}
+
+.ctt3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:20vh;
+    background-image:url(bt-tlf.png);
+}
+
+.ctt4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:20vh;
+    background-image:url(bt-email.png);
+
+}
+
+.ctt1lt{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:11vh;
+    background-image:url(bt-config.png);
+
+}
+
+.ctt2lt{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:11vh;
+    background-image:url(bt-waths.png);
+
+}
+
+.ctt3lt{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:10.5vh;
+    background-image:url(bt-tlf.png);
+}
+
+.ctt4lt{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:11vh;
+    background-image:url(bt-email.png);
+
 }
 
 .quadradocelular{
@@ -1516,17 +1745,11 @@ font-family: "Graduate", serif;
     border: 3px solid rgb(43, 43, 43);
 }
 
-#canva1{
-    position: absolute;
+.telacelularlt{
     width: 100%;
     height: 100%;
-}
-
-#macaco{
-    margin-top: 1.2%;
-    margin-left: 0;
-    border: 2px  ;
-    width: 98%;
-    height: 91.3%;
+    border-radius: 2%;
+    position: absolute;
+    border: 3px solid rgb(43, 43, 43);
 }
 

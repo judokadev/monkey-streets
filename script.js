@@ -19,7 +19,7 @@ const gameloop = () => {
 
     if (keys.left && player.position.x > 0) {player.moveleft()}
 
-    if (keys.right && player.position.x <= canvas.width - player.width - 15) {
+    if (keys.right && player.position.x <= canvas.width - player.width - 0) {
         player.moveright()}
     if (keys.up  && player.position.y > 0) {player.moveup()
     }
@@ -75,3 +75,6 @@ addEventListener("keyup", (event) => {
 });
 
 gameloop();
+
+
+
