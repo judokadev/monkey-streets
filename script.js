@@ -7,6 +7,8 @@ canvas.height = innerHeight;
 
 const player = new Player(canvas.width, canvas.height);
 
+
+
 const keys = {
     left: false,
     right: false,
@@ -16,7 +18,7 @@ const keys = {
 
 const gameloop = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
+        
     if (keys.left && player.position.x > 0) {player.moveleft()}
 
     if (keys.right && player.position.x <= canvas.width - player.width - 0) {
@@ -29,6 +31,7 @@ const gameloop = () => {
 
     player.draw(ctx)
 
+    
     requestAnimationFrame(gameloop)
 };
 

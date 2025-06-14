@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quadrocentral{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.815);
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 5%;
+}
+.pad{
+    background-size: 70%;
+    background-position: center;
+    background-image: url(images/arena2.jpg);
+    position: absolute;
+    border: 2px solid black;
+    height: 47%;
+    width: 100%;
+    top:2%;
+}
+
+.pad2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    top:50%;
+}
+
+.person1{
+    position: absolute;
+    width: 10%;
+    height: 53%;
+    left: 59%;
+    top: 44%;
+}
+.barracav{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 8%;
+    height: 8%;
+}
+.barracav2{
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    width: 8%;
+    height: 8%;
+}
+.barravida2{
+    position: absolute;
+    top: 38%;
+    left: 61.2%;
+    width: 6%;
+    height: 5%;
+}
+.person2{
+    position: absolute;
+    width: 12%;
+    height: 65%;
+    left: 30%;
+    top: 35%;
+}
+
+.grimorio{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 28%;
+}
+.blocogrimorio{
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    align-content:space-around ;
+    position: absolute;
+    top: 18%;
+    left: 4.6%;
+    margin: 0;
+    padding: 1%;
+    height: 74%;
+    width: 18%;
+    border-radius: 3%;
+   }
+
+
+.cartas{
+    margin: 5%;
+    padding: 0%;
+    height: 27%;
+    width: 22.8%;
+    background-color: rgba(37, 37, 37, 0.781);
+    cursor: pointer;
+    }
+    
+    .cartas:hover{
+    margin: 4.7%;
+    padding: 0%;
+    height: 27%;
+    width: 23%;
+    background-color: rgba(37, 37, 37, 0.781);
+    cursor: pointer;
+    border: 2px solid rgb(20, 39, 122);
+    }
+
+ 
+
+.projeteis{
+    background-color: red;
+}

@@ -1,22 +1,22 @@
 
 class Player {
     constructor(canvaswidth, canvasheight) {
-        this.width = 700 / 6;
-        this.height = 978 / 6;
+        this.width = 140;
+        this.height = 140;
         this.velocity = 5;
         this.position = {
             x:canvaswidth / 2 - this.width / 2,
             y:canvasheight / 2 - this.height / 2,
         };
 
-        this.image = this.getImage("macacog.png");
+        this.image = this.getImage();
 
     }
 
 
     getImage() {
         const image = new Image();
-        image.src = "macacog.png";
+        image.src = "./images/personagens/bandido1.png";
         return image;
     }
 

@@ -25,6 +25,23 @@
     left: 48.2%;
     top: 23%; 
 }
+.quadradoarena{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    bottom: 10%;
+    height: 90%;
+    width: 80%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.796);
+    align-content:space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: "Graduate", serif;
+    font-size: 25px;
+    color: rgb(56, 129, 109);
+    text-align: center;
+}
 .quadradoinicial{
     position: absolute;
     top: 15%;
@@ -65,7 +82,6 @@
     height: 95%;   
     margin: 0;
     border: 5px solid #474747;
-    border-top: 15px solid #474747;
     border-radius: 2%;
 }
 .tituloq{
@@ -98,7 +114,7 @@
     padding: auto;
     font-size: 140%;
     position: absolute;
-    width: 43%;
+    width: 53%;
     height: 50%;
     right: 0%;
     bottom: 0%;
@@ -563,7 +579,6 @@
     color: rgb(56, 129, 109);
 }
 .cor{
-    
     color: rgb(56, 129, 109);
     text-decoration: none;
 }
@@ -606,15 +621,18 @@
 }
 .judoka{
     font-family: "Graduate", serif;
-    font-size: 150%;
+    font-size: 140%;
     margin:0;
     text-align: center;
     border: 3px solid white;
-    padding: 3%;
+    padding: 1%;
     width: 45%;
     height: 10%;
 }
 .lvlp{
+    font-size: 80%;
+    width: 100%;
+    height: 100%;
     margin: 0px;
 }
 .level{
@@ -632,7 +650,7 @@
     width: 52%;
     position: absolute;
     text-align:left;
-    font-size: 150%;
+    font-size: 100%;
     height: 63%;
     left:4%;
     top:35%;
@@ -646,7 +664,7 @@
     left:61%;
     top:35%;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
     margin-top: 3%;
 }
 .glock{
@@ -777,8 +795,8 @@
 .quadroslots{
     background-color: rgba(41, 39, 5, 0.905);
     border: 2px solid black;
-    height: 60%;
-    width: 95%;
+    height: 56%;
+    width: 91%;
     position: absolute;
     top: 38%;
     left: 2.5%;
@@ -1014,6 +1032,7 @@
     margin-right: 35%;
     position: absolute;
     left: 10px;
+    top: 7%;
     border: 2px solid #252525;
     background-color: #535350e2;
 }
@@ -1031,7 +1050,7 @@
     width: 32%;
     height: 25%;
     position: absolute;
-    font-size: 15px;
+    font-size: 75%;
     border: 2px solid white;
     border-radius: 6%;
     left: 30%;
@@ -1298,7 +1317,6 @@ h{
 }
 
 #macaco{
-   
     border: 2px  ;
     width: 98%;
     height: 91.3%;
@@ -1425,7 +1443,7 @@ h{
     background-color: #252525;
     border: 1px solid gray;
     border-radius: 5%;
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
     margin-left: 30%;
     cursor: pointer; 
@@ -1436,7 +1454,7 @@ h{
     background-color: #252525;
     border: 1px solid gray;
     border-radius: 5%;
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
     margin-left: 30%;
     cursor: pointer; 
@@ -1447,7 +1465,7 @@ h{
     background-color: #252525;
     border: 1px solid gray;
     border-radius: 5%;
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
     margin-left: 30%; 
     cursor: pointer;
@@ -1488,6 +1506,7 @@ h{
 .botao-lt{
     background-color: #252525;
     border: none;
+    height: 40%;
     cursor: pointer;
     height: 100%;
 }
@@ -1500,8 +1519,9 @@ h{
 .link-lt{
     border: 10% solid #252525 ;
     text-decoration: none;
+    height: 50%;
     color:  rgb(56, 129, 109);
-    font-size: 15px;
+    font-size: 90%;
     font-family: "Graduate", serif; 
 }
 .slider{
@@ -1576,7 +1596,10 @@ width: 100%;
 background-color: rgb(0, 0, 0);
 font-family: "Graduate", serif;
 }
-
+.quadrocentralarena{
+    display: flex;
+    background-image:url(arena4.jpg) ;
+        }
 
 .celular{
     top: 0;
@@ -1753,3 +1776,196 @@ font-family: "Graduate", serif;
     border: 3px solid rgb(43, 43, 43);
 }
 
+
+.quadrocentral{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.815);
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 5%;
+}
+.pad{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 100%;
+    background-image: url(images/arena3.jpg);
+    position: absolute;
+    border: 2px solid black;
+    height: 47%;
+    width: 100%;
+    top:2%;
+}
+
+.pad2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 51%;
+    width: 100%;
+    top:46%;
+}
+
+.grimorio{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 28%;
+    left: 0;
+    top: 0;
+}
+
+.aba{
+    font-size: 70%;
+    padding: 2%;
+    position: relative;
+    background-image: url(./images/aba.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 73%; 
+    width: 20%;
+    left: 42%;
+    top: 12%;
+}
+.blocogrimorio{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 21.5%;
+    left: 5.7%;
+    margin: 0;
+    height: 70%;
+    width: 16%;
+    border-radius: 3%;
+   }
+
+.molduraarena{
+    position: absolute;
+    background-image: url(images/moldura1.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    width: 25%;
+    height: 95%;
+    left: 22%;
+    top:3%;    
+}
+
+.conteudomold{
+    width: 40%;
+    height: 50%;
+    position: relative;
+    left: 29.5%;
+    top: 25%;
+}
+
+.cont1 {
+    background-image: url(./sprites/assasino1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont2 {
+    background-image: url(./sprites/guerreiro31.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont3 {
+    background-image: url(./sprites/guerreiro12.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont4 {
+    background-image: url(./sprites/guerreiro28.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont5 {
+    background-image: url(./sprites/soldado3.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont6 {
+    background-image: url(./sprites/guerreiro19.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont7 {
+    background-image: url(./sprites/guerreiro16.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont8 {
+    background-image: url(./sprites/guerreiro17.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont9 {
+    background-image: url(./sprites/guerreiro18.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inventarioarena{
+    background-image: url(./images/invantario2.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    left: 65%;
+    top: 5%;
+}
+.cartas{
+    margin: 4.2%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37, 37, 37, 0.781);
+    cursor: pointer;
+    border-radius: 6%;
+    }
+    .bt-cartas{
+    margin: 4.2%;
+    padding: 0%;
+    height: 26%;
+    width: 24%;
+    background-color: rgba(37, 37, 37, 0.781);
+    cursor: pointer;
+    border-radius: 6%;
+    }
+    
+    .cartas:hover{
+    margin: 4.2%;
+    padding: 0%;
+    height: 97%;
+    width: 97%;
+    background-color: rgba(37, 37, 37, 0.781);
+    cursor: pointer;
+    border: 2px solid rgb(14, 26, 82);
+    }
+
+ 
+
+.projeteis{
+    background-color: red;
+}
