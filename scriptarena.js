@@ -1,6 +1,8 @@
 import Player from "./players.js";
 import Inimigo from "./inimigo.js";
-import projeteis from "./projeteis.js";
+import Bandido from "./bandido.js";
+
+
 
 const pad = document.querySelector(".tela1");
 const ctx = pad.getContext("2d");
@@ -8,10 +10,9 @@ const ctx = pad.getContext("2d");
 pad.width = innerWidth;
 pad.height = innerHeight;
 
-
+const bandido = new Bandido(pad.width, pad.height);
 const inimigo = new Inimigo(pad.width, pad.height);
 const player = new Player(pad.width, pad.height);
-const projetil = new projeteis( {x: 530, y: 175}, 5); 
 const playerprojeteis = [];
 
 
@@ -19,7 +20,13 @@ const keys = {
     shoot: {
         pressed:false,
         released: true
-        }
+        },
+
+    golpe: {
+        pressed:false,
+        released: true
+        }    
+
 };
 
 const drawprojeteis = () => {
@@ -29,10 +36,12 @@ const drawprojeteis = () => {
     })
 };
 
+
 const gameloop = () => {
     ctx.clearRect(0, 0, pad.width, pad.height);
 
     drawprojeteis();
+    
 
 
     if (keys.shoot.pressed && keys.shoot.released){
@@ -40,6 +49,7 @@ const gameloop = () => {
         keys.shoot.released = false;
         console.log("shoot")        
     }
+ 
     
 
  
@@ -64,5 +74,8 @@ addEventListener("keyup", (event) => {
         keys.shoot.released = true;
     };
 });
+
+
+
 
 gameloop();

@@ -1,4 +1,4 @@
-class Projeteis {
+class golpe {
     constructor (canvaswidth, canvasheight){
         this.width = 40;
         this.height = 40;
@@ -6,12 +6,12 @@ class Projeteis {
             x: 470,
             y: 170,
         };
-        this.image = this.getImage("poder1.png");
+        this.image = this.getImage("golpe1.png");
     }
 
        getImage() {
         const image = new Image();
-        image.src = "poder1.png";
+        image.src = "golpe1.png";
         return image;
     }
  
@@ -25,8 +25,8 @@ class Projeteis {
     }
 
     update() {
-        this.position.x += 10;
+        this.position.x += 4;
     }
 }
 
-export default Projeteis
+export default golpe
