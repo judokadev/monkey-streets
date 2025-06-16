@@ -143,10 +143,57 @@
     width: 100%;
 }
 .flpimg{
-    height:99%;
-    width:80%;
+    background-image: url(cidadep7.png);
+    background-size: 100% 100%;
+    height:100%;
+    width: 90%;
     border: 3px solid white;
-    left: 10%;
+    left: 5%;
+    position: relative;
+}
+.flpimg2{
+    background-image: url(cidadep.png);
+    background-size: 100% 100%;
+    height:100%;
+    width: 90%;
+    border: 3px solid white;
+    left: 5%;
+    position: relative;
+}
+.flpimg3{
+    background-image: url(cidadep8.png);
+    background-size: 100% 100%;
+    height:100%;
+    width: 90%;
+    border: 3px solid white;
+    left: 5%;
+    position: relative;
+}
+.flpimg4{
+    background-image: url(cidadep7.png);
+    background-size: 100% 100%;
+    height:100%;
+    width: 90%;
+    border: 3px solid white;
+    left: 5%;
+    position: relative;
+}
+.flpimg5{
+    background-image: url(cidadep4.png);
+    background-size: 100% 100%;
+    height:100%;
+    width: 90%;
+    border: 3px solid white;
+    left: 5%;
+    position: relative;
+}
+.flpimg6{
+    background-image: url(cidadep2.png);
+    background-size: 100% 100%;
+    height:100%;
+    width: 90%;
+    border: 3px solid white;
+    left: 5%;
     position: relative;
 }
 .cidadema{
@@ -499,7 +546,7 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 22%;
+    height: 25%;
     width: 8%;
     position: absolute;
     font-size: 18px;
@@ -1968,4 +2015,19 @@ font-family: "Graduate", serif;
 
 .projeteis{
     background-color: red;
+}
+
+.vltpc{
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    color:rgb(14, 82, 45) ;
+    font-size: 70%;
+    align-items: center;
+    align-content: center;
+}
+
+.some{
+    height: 0;
+    width: 0;
 }
